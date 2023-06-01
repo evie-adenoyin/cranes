@@ -1,0 +1,14 @@
+.section-headline {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-header {
+  font-size: 45px;
+}
+.section-text {
+  color: gray;
+  margin-top: -10px;
+  line-height: 25px;
+}

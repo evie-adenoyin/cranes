@@ -1,0 +1,62 @@
+.sectionfour {
+  background-image: linear-gradient(
+      0deg,
+      rgba(253, 253, 253, 0.747) 30%,
+      rgba(255, 255, 255, 0.76) 100%
+    ),
+    url("../../../assets/images/5367739.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 100px 100px;
+  height: 100vh;
+}
+.sectionfour-sectionone {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.sectionfour-headline {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.sectionfour-headline::after {
+  content: "";
+  background: #dd042b;
+  transition: 0.5s;
+  height: 2px;
+  display: block;
+  position: relative;
+  top: 10px;
+  width: 30%;
+}
+.sectionfour-header {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.sectionfour-sectionone-left {
+  width: 50%;
+}
+.sectionfour-sectionone-right {
+  width: 50%;
+}
+.sectionfour-sectionone-right img {
+  width: 80%;
+}
+.sectionfour-sectionone-list p {
+  color: gray;
+  line-height: 30px;
+}
+.sectionfour-sectionone-list {
+  margin-top: 70px;
+}
+.sectionfour-sectionone-right-catlogue {
+  background: white;
+  padding: 20px;
+}
+.phone:hover {
+  color: white;
+  cursor: pointer;
+}

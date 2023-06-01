@@ -1,0 +1,108 @@
+.sectionfive {
+  background: rgb(221, 221, 221);
+  height: 150vh;
+}
+.sectionfive-top {
+  padding: 60px;
+}
+.sectionfive-header {
+  text-align: center;
+}
+.sectionfive-header h1 {
+  font-size: 45px;
+  text-transform: capitalize;
+  line-height: 20px;
+}
+.sectionfive-headline {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.sectionfive-headline::after {
+  content: "";
+  background: #dd042b;
+  transition: 0.5s;
+  height: 2px;
+  display: block;
+  position: relative;
+  top: 10px;
+  width: 10%;
+  left: 45%;
+}
+.sectionfive-card {
+  background: white;
+  width: 30%;
+  padding: 20px;
+  transition: all ease-in-out 0.2s;
+}
+.sectionfive-card:hover {
+  background: rgb(27, 33, 48);
+  cursor: pointer;
+}
+.sectionfive-card:hover .sectionfive-card-comment {
+  color: white;
+}
+.sectionfive-card-comment {
+  transition: all ease-in-out 0.2s;
+}
+.sectionfive-user {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.sectionfive-user-name {
+  color: gray;
+}
+.sectionfive-user-action {
+  height: 25px;
+  width: 25px;
+  font-size: 20px;
+  padding: 14px;
+  border-radius: 50%;
+  background: #dd042b;
+  color: white;
+}
+.sectionfive-testimonials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+  gap: 20px;
+}
+.sectionfive-read-more {
+  text-align: center;
+}
+.sectionfive-read-more button {
+  margin-top: 30px;
+  text-align: center;
+  padding: 20px 40px;
+  border: none;
+  background: #dd042b;
+  color: white;
+  font-weight: 500;
+  transition: all ease-in-out 0.2s;
+}
+.sectionfive-read-more button:hover {
+  color: black;
+  background: #fff;
+  cursor: pointer;
+}
+.sectionfive-partners {
+  background: rgb(27, 33, 48);
+  display: flex;
+  height: 26vh;
+  margin-top: 50px;
+}
+.sectionfive-partners div {
+  width: 100%;
+  text-align: center;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(158, 158, 158);
+  transition: all ease-in-out 0.3s;
+}
+.sectionfive-partners div:hover {
+  color: white;
+  background: #dd042b;
+}

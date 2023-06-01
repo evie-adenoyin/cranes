@@ -1,0 +1,57 @@
+.header-slide-container {
+  position: relative;
+}
+.header-image {
+  height: 100vh;
+  position: relative;
+}
+.header-image div {
+  background: linear-gradient(
+    121deg,
+    rgba(0, 0, 0, 0.747) 30%,
+    rgba(255, 255, 255, 0.384) 100%
+  );
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.header-text {
+  position: absolute;
+  top: 7%;
+  left: 10%;
+  text-align: left;
+  line-height: 20px;
+}
+.header-text h1 {
+  font-weight: bolder;
+  font-size: 100px;
+  text-transform: capitalize;
+  color: white;
+}
+.header-caption {
+  color: white;
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: 600;
+}
+.header-contact {
+  display: flex;
+  gap: 20px;
+}
+.header-contact-button button {
+  background-color: #dd042b;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+}
+.header-contact-button button:hover {
+  color: black;
+  background: white;
+  cursor: pointer;
+}
+.header-contact-phone {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
